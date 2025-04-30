@@ -19,7 +19,7 @@ const TrustedByMarquee = () => {
 
     return (
         <section className="py-10 ">
-            <h2 className="text-center text-3xl font-bold mb-6">
+            <h2 className="text-center text-2xl md:text-4xl font-semibold mb-6">
                 Trusted by Companies and Organisations
             </h2>
             <Marquee pauseOnHover speed={50} gradient={false}>
@@ -28,7 +28,7 @@ const TrustedByMarquee = () => {
                         <img
                             src={company.logo}
                             alt={company.name}
-                            className="h-30 w-auto object-contain"
+                            className=" h-24  md:h-30 w-auto object-contain"
                         />
 
                     </div>
