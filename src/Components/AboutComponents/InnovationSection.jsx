@@ -16,7 +16,7 @@ const InnovationSection = () => {
         </p>
       </div>
 
-      <div className="flex flex-col md:flex-row justify-evenly items-center gap-8">
+      <div className="flex flex-col md:flex-row gap-24 items-center justify-center">
         <div className="relative w-64 h-64 border border-gray-300 rounded-md overflow-hidden">
           <img src={scaleImage} alt="Scale" className="w-full h-full object-cover" />
           <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-[#FAF0E6]/90 to-transparent px-4 flex  items-center">

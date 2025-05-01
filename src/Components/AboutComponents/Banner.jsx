@@ -4,7 +4,7 @@ import bannerGraphic from "/AboutUs/image1.png"
 
 const Banner = () => {
   return (
-    <div className="w-full bg-gradient-to-br from-[#21697D] to-[#21697D] text-white min-h-[500px]">
+    <div className="w-full bg-gradient-to-r from-[#21697D] to-[#9DDCFC] text-white min-h-[500px]">
       <div className="container mx-auto px-6 py-16">
         <div className="flex flex-col min-h-screen max-h-screen md:flex-row items-center justify-between">
           <div className="md:w-1/2 mb-10 md:mb-0">
