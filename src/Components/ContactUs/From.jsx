@@ -32,7 +32,7 @@ const ContactForm = () => {
   return (
     <div className="w-full min-h-screen mt-8 flex items-center justify-center bg-gray-100 p-4 md:p-8">
       {/* Main Container */}
-      <div className="flex flex-col md:flex-row bg-white w-2/3   shadow-2xl rounded-lg shadow-black">
+      <div className="flex flex-col md:flex-row bg-white w-2/3    shadow-2xl rounded-lg shadow-black">
         {/* Left Section (Fixed Size on Larger Screens) */}
         
             <div className="bg-[#21697D] w-full md:w-[45%] lg:w-[50%] min-h-[200px] md:min-h-[300px] rounded-lg flex flex-col items-start justify-center text-white p-6 md:p-8 relative">
